@@ -23,6 +23,7 @@ setup(
     install_requires=[
         'Flask',
         'py-gfm',
+        'Flask-Markdown',
     ],
     classifiers=[
         'Environment :: Web Environment',
