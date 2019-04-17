@@ -9,7 +9,7 @@ from setuptools import setup
 
 setup(
     name='Flask-GFM',
-    version='0.0.0',
+    version='0.1.0',
     url='https://github.com/jckdotim/flask-gfm/',
     license='MIT',
     author='JC Kim',
