@@ -22,6 +22,7 @@ setup(
     platforms='any',
     install_requires=[
         'Flask',
+        'markdown<3.0',
         'py-gfm',
         'Flask-Markdown',
     ],
