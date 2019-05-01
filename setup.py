@@ -7,9 +7,11 @@ GitHub Flavored Markdown jinja2 extension for Flask
 from setuptools import setup
 
 
+__version__ = '0.1.1'
+
 setup(
     name='Flask-GFM',
-    version='0.1.1',
+    version=__version__,
     url='https://github.com/jckdotim/flask-gfm/',
     license='MIT',
     author='JC Kim',
@@ -25,6 +27,7 @@ setup(
         'markdown<3.0',
         'py-gfm',
         'Flask-Markdown',
+        'python-semantic-release',
     ],
     classifiers=[
         'Environment :: Web Environment',
