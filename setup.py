@@ -24,7 +24,7 @@ setup(
     platforms='any',
     install_requires=[
         'Flask',
-        'markdown<3.0',
+        'markdown<3.2',
         'py-gfm',
         'Flask-Markdown',
         'python-semantic-release',
